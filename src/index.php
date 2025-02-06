@@ -14,7 +14,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #f4f4f4;
+            background-color:rgb(175, 172, 172);
         }
 
         h1 {

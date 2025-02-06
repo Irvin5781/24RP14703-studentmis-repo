@@ -32,7 +32,7 @@
         }
 
         .btn-primary {
-            background-color: #007bff;
+            background-color:rgb(76, 153, 235);
             border-color: #007bff;
             font-size: 1rem;
             font-weight: bold;
@@ -49,12 +49,8 @@
         <h1 class="text-center mb-4">USER REGISTRATION</h1>
         <form method="POST" action="handle_register_user.php" class="w-50 mx-auto">
             <div class="mb-3">
-                <label for="firstname" class="form-label">First Name:</label>
+                <label for="firstname" class="form-label">Names:</label>
                 <input type="text" name="firstname" id="firstname" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="lastname" class="form-label">Last Name:</label>
-                <input type="text" name="lastname" id="lastname" class="form-control" required>
             </div>
             
             <div class="mb-3">
@@ -65,7 +61,7 @@
                 <label for="password" class="form-label">Password:</label>
                 <input type="password" name="password" id="password" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" class="btn btn-primary w-100"><a href="index.php">Submit</a></button>
         </form>
     </div>
     <!-- Add Bootstrap JS -->
